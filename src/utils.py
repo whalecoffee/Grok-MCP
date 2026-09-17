@@ -5,7 +5,7 @@ from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
 
-load_dotenv("example.env")
+load_dotenv()
 
 XAI_API_KEY = os.getenv("XAI_API_KEY", "")
 
